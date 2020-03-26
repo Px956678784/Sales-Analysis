@@ -1,0 +1,62 @@
+.el-header {
+  background-color:white;
+  opacity: 80%;
+  color:gray;
+  font-family: '微软雅黑';
+  font-size: 20px;
+  line-height: 60px;
+  position: relative;
+}
+#dateNumber{
+  font-family: 'MV Boli';
+
+ color: rgb(255, 118, 148);
+}
+.title{
+  color:rgb(247, 164, 71);
+  font-family: 'Mistral';
+  font-size: 40px;
+  position: absolute;
+  margin-left:50%;
+}
+.time{
+  position: absolute;
+  right:2%;
+}
+.date{
+  position: absolute;
+  left: 2%;
+}
+  .el-main {
+    color: #333;
+    text-align: center;
+  }
+
+  .screen{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+   /* background-image: url('../../static/blue.jpg');*/
+    background:  linear-gradient(160deg,#F9D4F4,#C5EEE2);
+    background-size: 100%;
+  }
+  .left{
+      width: 40%
+  }
+  .down{
+      padding: 12px;
+      height: 300px;
+  }
+  .content-box{
+    margin:auto;
+    height: 98%;
+    width: 98%;
+    border-radius: 15px;
+    background-color: rgba(91,179,160,0.1);
+    box-shadow: gray 1px 1px 5px 1px ;
+    overflow:hidden;
+    display: flex;
+}
+.x_axis line{
+  stroke: white;
+}
